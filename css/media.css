@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 650px) {
+
+    .container {
+        flex-direction: column;
+        padding-top: 1em;
+    }
+
+    .div1 {
+        height: 200px;
+        width: 300px;
+    }
+
+    picture img {
+        height: 100%;
+        width: 100%;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    .div2 {
+        border-radius: 0px 0px 20px 20px;
+        height: 400px;
+        padding: 0 13px;
+    }
+
+    .div2 p {
+        line-height: 1.8em;
+        font-size: 13px;
+    }
+
+    .div2 h1 {
+        margin-top: -20px;
+        font-size: 1.8em;
+    }
+
+    .price {
+        text-align: unset;
+        padding-left: 10px;
+    }
+
+}
